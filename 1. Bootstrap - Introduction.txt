@@ -1,0 +1,46 @@
+################################################
+Bootstrap Introduction
+################################################
+
+What is bootstrap:
+
+Responsive Web application:
+
+
+Only if you can understand what is responsive web application we can decide whether to use bootstrap or not.
+
+Understand responsive web application:
+
+Initialy we were using desktop and laptop to view websites, later we started using mobile phones and tables. so for the purpose of devices
+multiple websites of say content was created example www.cricinfo.com was created for desktops and laptops, m.cricinfor.com was created for
+mobiles and tablets. reason being the screen size of devices were different. To make even small changes it has to be done in multiple places.
+
+Responsive web application were designed to realign components as per screen size. Example: bootstrap.com if you realign screen size, the website 
+aligns components according to screen size. Its give better readability and user experience.
+
+In early days multiple css were designed, based on screen resolution appropriate css were applied. It was very complicated to maintian multiple css
+to overcome this issues a new framework called bootstrap, using html, css, javascript a ready to use framework was created. 
+
+Bootstap can be used with HTML, ASP.NET. 
+
+Advantages:
+
+Responsive Design - single web application can be viewed in computers, laptops, tablets, mobiles 
+Saves lot of development time - ready to use css classes is available 
+Ready to use components - like auto drop down, autofill textbox. 
+Consistency - easy to work with website using bootstrap frame work
+
+Downloading Bootstrap:
+
+Download Bootstrap
+
+Getbootstrap.com go to website download boostrap, zip file will downlod, in the zip there will be folders for CSS, fonts and js. use minified version for production
+
+copy the downloads to the location where you do development, in the hmtl file includes the files in the folder  
+
+Tools to be used:
+
+Notepad++
+
+
+

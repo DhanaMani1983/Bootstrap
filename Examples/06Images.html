@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive Sample</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+	<body>
+		<div class="jumbotron text-center">
+			<h1>Image Effects</h1>
+			<p>Resize this responsive page to see the effect!</p>
+		</div>
+		<div class="container">
+			<h2>Original Images</h2>
+			<div class="row">
+				<div class="col-sm-4">
+					<img src="images\rooster.jpg" alt="rooster" width="300" />
+				</div>
+				<div class="col-sm-4">
+					<img src="images\Baltimore.jpg" alt="Baltimore" width="300" />
+				</div>
+				<div class="col-sm-4">
+					<img src="images\exoticbirds2.jpg" alt="ExoticBirds" width="300" />
+				</div>
+			</div>
+			
+			<h2>Image Effects Applied</h2>
+			<div class="row">
+				<div class="col-sm-4">
+					<h3>Rounded Corners</h3>
+					<img src="images\rooster.jpg" alt="rooster" width="300" class="img-rounded" />
+				</div>
+				<div class="col-sm-4">
+					<h3>Round</h3>
+					<img src="images\Baltimore.jpg" alt="Baltimore" width="300" class="img-circle" />
+				</div>
+				<div class="col-sm-4">
+					<h3>Thumbnail</h3>
+					<img src="images\exoticbirds2.jpg" alt="ExoticBirds" width="300" class="img-thumbnail" />
+				</div>
+			</div>
+			<h2>Image Responsive</h2>
+			<div class="row">
+				<img src="images\exoticbirds2.jpg" alt="ExoticBirds" class="img-responsive" />
+			</div>
+			<h2>Responsive Embed</h2>
+			<div class="embed-responsive embed-responsive-16by9">
+				<video controls class="embed-responsive-item">
+				  <source src="video\oceans.mp4" type="video/mp4" >			  
+				</video>	
+			</div>
+		</div>
+		
+		
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>

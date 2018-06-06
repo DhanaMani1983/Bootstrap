@@ -1,0 +1,114 @@
+################################################
+Bootstrap Getting started
+################################################
+
+Getting Started:
+
+Applying Bootstrap:
+
+Include the below in the head section 
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"> - Here we specify the width should be device width and initial scale should be 100%
+<link href="css/bootstrap.min.css" rel="stylesheet"> - include minified css file
+
+<div class="container-fluid"> - 
+
+New trend is to include javascript before the closing body tag, reason being js will run only after document is loaded
+
+<script src="js/jquery.min.js"></script> - download jquery minified version in the bootstrap js folder 
+<script src="js/bootstrap.min.js"></script> - add bootstrap, will do activties to realign components according to device  
+</body>
+
+inlcude jquery before bootstrap otherwise bootstrap will not work  
+
+<div class="container> - will keep the content in middle and gives equal space to both sides, fixed width container
+<div class="container-fluid"> - full width container, will align according to full width 
+
+Grid System:
+
+Grid system can be associated/assumed to table,, using table we can create n number or rows and columns similarly area within the container can be grouped into 12 columns within a row
+
+In days before bs, if you want to design webpage with menu on left and content on right, table was used which had issues while resizing in responsive website, search engine optimiztion is not possible
+
+To overcome this issue and keep the benefits of table, grid system was created. The space inside the container is assumed to be 12 columns
+
+Also we can group 12 columns in multiple ways like 6:6 or 12 or 4:8, in total it should be 12 columns 
+
+
+The content of web page should be built based on grid system, two classes are available row, column, row is single class name 
+
+whereas column is divided into sm(small) for mobile, md(medium) for tablet , lg(large) for desktop/laptop
+
+col-sm-6 - combine 6 columns into 1 
+
+jumbotron class is used to create bold space for header 
+
+Typography:
+
+
+BS has readymade frequently used class names, Typography is related to text display how it can be done easily and quickly
+
+Using H1 - H6 we can display different style, but it can be made better using bootstrap. there are several themes available both paid and unpaid.
+
+<small> to create lighter secondary heading text
+<mark> to highlight a text
+<code> to highlight code elements of particular programming languages you can use code 
+<kbd> to highlight key strokes - <kbd>Ctrl+S</kbd>
+
+to change colour of running text we can use text-style name
+
+<p class="text-muted">This text is muted.</p>
+<p class="text-primary">This text is important.</p>
+<p class="text-success">This text indicates success.</p>
+<p class="text-info">This text represents some information.</p>
+<p class="text-warning">This text represents a warning.</p>
+<p class="text-danger">This text represents danger.</p>
+
+
+to change colour of background in text we can use bg-style name
+
+<p class="bg-primary">This text is important.</p>
+<p class="bg-success">This text indicates success.</p>
+<p class="bg-info">This text represents some information.</p>
+<p class="bg-warning">This text represents a warning.</p>
+<p class="bg-danger">This text represents danger.</p>
+
+Text alignment:
+
+<p class="text-left">Left Justified</p>
+<p class="text-center">Centre Justified</p>
+<p class="text-right">Right Justified</p>
+
+Text capitalize:
+
+<p class="text-uppercase">All capitals</p>
+<p class="text-lowercase">All lowercase letters</p>
+
+List unstyled and List Inline 
+
+Table:
+
+In conventional HTML table we can apply BS styling
+
+class = table - applies table formatting
+table-bordered applies overall border
+table-hover - adds hovering effect
+active, success, info, warning danger - contexual color to be applied for tr or td tags
+table-reponsive - marks the table horizontally scrollable
+table-striped - Adds alternating row color
+table-condensed - removes the padding spaces and width to fit the content 
+
+Images:
+
+
+In HTML how to beautify images and make them responsive, we can use bootstrap 
+
+
+img-rounded - Rounded image box
+img-circle - Image circle
+img-thumbnail - Image thumbnail small circle or rounded border  appears
+img-responsive - Responsive image, based on screen size image alter and renders 
+embed-responsive - iframe, embed, video, object 
+
+
