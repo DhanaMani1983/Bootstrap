@@ -1,0 +1,82 @@
+################################################
+Bootstrap Advanced controls-1
+################################################
+
+Advanced controls-1:
+
+Jumnbotron:
+
+Jumbotron - a big box for extra attention, which can be applied for whole page or container 
+            inside the container & outside the container
+
+page-header: display heading text with underline 
+
+Well:
+
+well  Adds to an element, a rounded border around an element with a grey background color and some paading
+
+well - box will be normal
+well well-sm - small
+well well-lg - large 
+
+
+Alerts:
+
+during form processing, box with colors appear to provide details of form action, say for example if you missed filling mandatory column then red color box with message appear
+these are alerts in BS
+
+alert - alert message box 
+alert alert-success - success message (Green background color)
+alert alert-info - info message (Blue background color)
+alert alert-warning - Warning message (Orange background color)
+alert alert-danger - Potem=ntially negative action message (Red bg color)
+
+
+Buttons:
+
+
+HTML button have different style and its hard to modify the styles. BS lets to change styles very easily
+
+Button styles can be applied to a (anchor), button, input (type=button) elements can be made button
+
+Button Sizes - Large, medium, small, xsmall
+
+Block level buttons - Button for full width of container 
+
+Actve/disabled buttons - you can set button enabled as active or disabled 
+
+To change element to button use btn class as base class and add secondary class name like btn-lg, btn-block
+
+Button Groups:
+
+Button Group are similar to radio button in HTML, Once buttons are grouped, you can set behaviour like which button is clicked 		
+
+<div class="btn-group">
+  <button type="button" class="btn btn-primary">Salem</button>
+  <button type="button" class="btn btn-primary">Erode</button>
+  <button type="button" class="btn btn-primary">Coimbatore</button>
+</div>
+
+Button Group Sizes - one can set size of buttons at one go within button group 
+
+Vertical button: buttons layout can be set to vertical or horizontal.
+
+Justified button group:
+
+Equal spaing between buttons and take whole length of container 
+
+Button group with dropdown group: To get the effect of nested button groups or dropdown menus BS classes are available 
+
+Split button groups: is useful in case of drop down buttons 
+
+GlyphIcon:
+
+In web page certain icons are needed like email, print etc, BS provides these predefined GlyphIcons 
+
+uset http://getbootstrap.com/components/
+
+
+
+
+
+
