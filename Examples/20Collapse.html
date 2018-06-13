@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Collapse</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+	<body>
+		<div class="jumbotron text-center">
+			<h1>Collapse</h1>
+			<p>Collapsibles are useful when you want to hide and show large amount of content.</p>
+		</div>
+		<div class="container">
+			<div class="page-header">
+				<h2>Basic Collapsible</h2>
+			</div>
+			<button data-toggle="collapse" data-target="#apple">Click me to know the benefits of apple...</button>
+			<div id="apple" class="collapse">
+			Apples are extremely rich in important antioxidants, flavanoids, and dietary fiber. The phytonutrients and antioxidants in apples may help reduce the risk of developing cancer, hypertension, diabetes, and heart disease. This article provides a nutritional profile of the fruit and its possible health benefits.
+			</div>			
+
+			<div class="page-header">
+				<h2>Collapsible Panel (Opened by default)</h2>
+			</div>
+			<div class="panel-group">
+			  <div class="panel panel-default">
+				<div class="panel-heading">
+				  <h4 class="panel-title">
+					<a data-toggle="collapse" href="#apple2">Benefits of Apple</a>
+				  </h4>
+				</div>
+				<div id="apple2" class="panel-collapse collapse in">
+				  <div class="panel-body">Apples are extremely rich in important antioxidants, flavanoids, and dietary fiber. The phytonutrients and antioxidants in apples may help reduce the risk of developing cancer, hypertension, diabetes, and heart disease. This article provides a nutritional profile of the fruit and its possible health benefits.</div>
+				  <div class="panel-footer">An apple a day, Doctors away.</div>
+				</div>
+			  </div>
+			</div>
+			
+			<div class="page-header">
+				<h2>Collapsible List Group</h2>
+			</div>
+			
+			<div class="panel-group">
+			  <div class="panel panel-default">
+				<div class="panel-heading">
+				  <h4 class="panel-title">
+					<a data-toggle="collapse" href="#States">South Indian States</a>
+				  </h4>
+				</div>
+				<div id="States" class="panel-collapse collapse">
+				  <ul class="list-group">
+					<li class="list-group-item">Tamilnadu</li>
+					<li class="list-group-item">Kerala *</li>
+					<li class="list-group-item">Karnataka</li>
+					<li class="list-group-item">Andhrapradesh</li>
+				  </ul>
+				  <div class="panel-footer">* God's own country</div>
+				</div>
+			  </div>
+			</div>
+			
+			<div class="page-header">
+				<h2>Accordion</h2>
+			</div>
+						
+			<div class="panel-group" id="accordion">
+			  <div class="panel panel-default">
+				<div class="panel-heading">
+				  <h4 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+					Apple</a>
+				  </h4>
+				</div>
+				<div id="collapse1" class="panel-collapse collapse in">
+				  <div class="panel-body">Apples are extremely rich in important antioxidants, flavanoids, and dietary fiber. The phytonutrients and antioxidants in apples may help reduce the risk of developing cancer, hypertension, diabetes, and heart disease. This article provides a nutritional profile of the fruit and its possible health benefits.</div>
+				</div>
+			  </div>
+			  <div class="panel panel-default">
+				<div class="panel-heading">
+				  <h4 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+					Orange</a>
+				  </h4>
+				</div>
+				<div id="collapse2" class="panel-collapse collapse">
+				  <div class="panel-body">Oranges are an excellent source of vitamin C. They are also a very good source of dietary fiber. In addition, oranges are a good source of B vitamins including vitamin B1, pantothenic acid and folate as well as vitamin A, calcium, copper and potassium.</div>
+				</div>
+			  </div>
+			  <div class="panel panel-default">
+				<div class="panel-heading">
+				  <h4 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+					Grapes</a>
+				  </h4>
+				</div>
+				<div id="collapse3" class="panel-collapse collapse">
+				  <div class="panel-body">Grapes contain powerful antioxidants known as polyphenols, which may slow or prevent many types of cancer, including esophageal, lung, mouth, pharynx, endometrial, pancreatic, prostate and colon. The resveratrol found in red wine famous for heart health is a type of polyphenol found in the skins of red grapes.</div>
+				</div>
+			  </div>
+			</div>			
+			<br /><br />
+		</div>
+		
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>

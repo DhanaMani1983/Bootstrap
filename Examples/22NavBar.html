@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nav Bars</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+	<body>
+		<div class="jumbotron text-center">
+			<h1>Nav Bars</h1>
+			<p>A navigation bar is a navigation header that is placed at the top of the page.</p>
+		</div>
+		<div class="container">
+			<div class="page-header">
+				<h2>Basic Nav Bar</h2>
+			</div>
+			<nav class="navbar navbar-default">
+			  <div class="container-fluid">
+				<div class="navbar-header">
+				  <a class="navbar-brand" href="#">Collectiva</a>
+				</div>
+				<ul class="nav navbar-nav">
+				  <li class="active"><a href="#">Home</a></li>
+				  <li><a href="#">Courses</a></li>
+				  <li><a href="#">Packages</a></li> 
+				  <li><a href="#">Contact us</a></li> 
+				</ul>
+			  </div>
+			</nav>
+			
+			<div class="page-header">
+				<h2>Inverted Nav Bar</h2>
+			</div>
+			
+			<!-- navbar-fixed-top or navbar-fixed-bottom -->
+			<nav class="navbar navbar-inverse">
+			  <div class="container-fluid">
+				<div class="navbar-header">
+				  <a class="navbar-brand" href="#">Collectiva</a>
+				</div>
+				<ul class="nav navbar-nav">
+				  <li class="active"><a href="#">Home</a></li>
+				  <li><a href="#">Courses</a></li>
+				  <li><a href="#">Packages</a></li> 
+				  <li><a href="#">Contact us</a></li> 
+				</ul>
+			  </div>
+			</nav>
+			
+			<div class="page-header">
+				<h2>Fixed Nav Bar - Top</h2>
+			</div>
+			<h4>navbar-fixed-top</h4>			
+			
+			<div class="page-header">
+				<h2>Fixed Nav Bar - Bottom</h2>
+			</div>
+			<h4>navbar-fixed-bottom</h4>
+			
+			<div class="page-header">
+				<h2>Navigation Bar with Dropdown menu</h2>
+			</div>
+			<nav class="navbar navbar-inverse">
+			  <div class="container-fluid">
+				<div class="navbar-header">
+				  <a class="navbar-brand" href="#">cka.collectiva.in</a>
+				</div>
+				<ul class="nav navbar-nav">
+				  <li class="active"><a href="#">Home</a></li>
+				  <li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">HTML
+					<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+					  <li><a href="#">HTML</a></li>
+					  <li><a href="#">Bootstrap</a></li>
+					  <li><a href="#">CSS & Javascript</a></li> 
+					</ul>
+				  </li>
+				  <li><a href="#">Packages</a></li> 
+				  <li><a href="#">About us</a></li> 
+				</ul>
+			  </div>
+			</nav>
+			
+			<div class="page-header">
+				<h2>Right aligned Navigation Bar</h2>
+			</div>
+			
+			<nav class="navbar navbar-default">
+			  <div class="container-fluid">
+				<div class="navbar-header">
+				  <a class="navbar-brand" href="#">Collectiva</a>
+				</div>
+				<ul class="nav navbar-nav">
+				  <li class="active"><a href="#">Home</a></li>
+				  <li><a href="#">Courses</a></li>
+				  <li><a href="#">Packages</a></li> 
+				  <li><a href="#">Contact us</a></li> 
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+				  <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+				  <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+				</ul>
+			  </div>
+			</nav>
+			
+			<div class="page-header">
+				<h2>Collapsing Navigation Bar</h2>
+			</div>
+			
+			<nav class="navbar navbar-default">
+			  <div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapseNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span> 
+					  </button>
+				  <a class="navbar-brand" href="#">Collectiva</a>
+				</div>
+				<div class="collapse navbar-collapse" id="collapseNavbar">
+					<ul class="nav navbar-nav">
+					  <li class="active"><a href="#">Home</a></li>
+					  <li><a href="#">Courses</a></li>
+					  <li><a href="#">Packages</a></li> 
+					  <li><a href="#">Contact us</a></li> 
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+					  <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+					  <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+					</ul>
+				</div>
+			  </div>
+			</nav>
+			<br /><br />
+		</div>
+		
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
