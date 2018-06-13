@@ -1,0 +1,102 @@
+################################################
+Bootstrap Advanced controls-2
+################################################
+
+Advanced controls-2:
+
+Badges & Labels:
+
+
+Badges are numerical indications of how many items are associated with a link, example email Inbox - 59, facebook notification -2 
+
+Badges can be associated with buttons
+
+
+Labels:
+
+Are used to additional information about something, mainly used for highlighting something example: label next to textbox. 
+
+
+Progress Bar:
+
+If you want to know how much percentage of task is completed we can use progress bars. Types of progress bar basic progress bar, progress bar with label, colour progress bar with label
+striped progress bar, Animated progress bar 
+
+We can combine programming part into progress bar. 
+
+<div class="progress"> -- div which shows the grey background for 100% 
+			  <div class="progress-bar" role="progressbar" aria-valuenow="70"
+			  aria-valuemin="0" aria-valuemax="100" style="width:70%">
+				My name is computer
+			  </div> -- progress bar highlighted area, style property gives width. 
+			</div>		
+
+
+Progress will be external div class
+internal div class is progress bar and role is progress bar, style will specify how much colored width it should be, aria valuenow, aria valuemin and aria valuemax should be driven by developer, 
+
+Labelled progress bar, content specified within internal div will be shown as label
+
+For animation add active to the progress bar class
+
+Pagination & Breadcrumb:
+
+If there is a lengthy article and you want to distribute the article to multiple pages we can use paginiation, Create links to navigate to different pages
+
+breadcrumbs - Breadcrumb are used to show current link where we are, if you have a website with say 50 pages, we would create lot of sub menus for ease of style and navigation. 
+Becuase there is lot of submenus, to show the hierarchy of links we would use breadcrumbs eagample Home / Private/ Pictures/ Vacation. breadcrumbs show tree view 
+
+Pager:
+
+In pagination we add numbers to navigate to different pages, similarly we can add Next, Prev for navigation which is called pager
+
+List Groups:
+
+Tables are not good choice for SEO, but we would need same effect as table, for that purpose we would use list group, list group is used to display items in box like structure 
+
+Basic List Groups, List Group with Badges, List Group with Linked Items 
+
+Panels:
+
+To show running text neatly  in a box structure we can use panels. Panel show text in a box, you can add panel body, panel heading, panel footer 
+
+Use can group panels with help of panel group. 
+
+contextual panel - apply colors to panels panel-info, panel-success, panle-danger, panel-warning 
+
+Dropdown:
+
+
+Along with pagination you want to display different page links in a dropdown we can use dropdown option 
+
+Collapsible:
+
+Certain web pages have text/section of text hidden, if you want reveal them based on a event such as button click we can use collapsible 
+
+Accordion:
+
+Multi panel content, If we have multiple panels in a group, we want only one panel to be visible and other invisible we can use acordion 
+
+Tab pills:
+
+To show menus as tabs and pills we can use this option 
+
+
+Refer exercise file for more clarity 
+
+Navbar:
+
+Main menu bar. In BS its a simple menu 
+
+
+
+
+
+
+
+
+
+
+
+
+
