@@ -1,0 +1,52 @@
+################################################
+Bootstrap Form Controls
+################################################
+
+Form Controls:
+
+To beautify HTML forms we can use BS.Responsive forms are created using BS
+
+Vertical form pattern:
+
+Label in one line and text box in next line is called vertical form 
+
+use form-group to group label and text box, use form-control on the input element 
+
+Inline Form:
+
+Form elements which are inline which is next to each other in a line 
+
+use form-inline as class for form and form-group to group label and text box, use form-control on the input element 
+
+Horizontal FormL
+
+Label on left and text box on right 
+
+use form-horizontal as class for form and form-group to group label and text box, use form-control on the input element 
+
+use placeholder to show text inside input control 
+
+Form Input:
+
+To show how display of form input changes while applying bootstrap 
+
+Refer example files for more clarity 
+
+Form inputs-2:
+
+Advanced form controls :
+
+Input Groups
+
+div class is input-group, i(italic) tag to display image 
+
+Button next to input box
+
+class input group button should be used after input box 
+
+Form control states 
+
+Form Control Sizing:
+
+How to resize input controls, how can label and input can be resized at the same time, How to resize input control as per column, 
+How to display text below input control 
